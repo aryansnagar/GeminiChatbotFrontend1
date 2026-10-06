@@ -1,5 +1,5 @@
 // ---------- Settings ----------
-const API_URL = "http://localhost:5000/chat"; // change to your deployed API URL
+const API_URL = "https://geminichatbotbackend1.onrender.com/chat"; // change to your deployed API URL
 const STORAGE_KEY = "chatbot_chats";
 
 // ---------- Elements ----------
