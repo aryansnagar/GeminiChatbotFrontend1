@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside id="sidebar" class="sidebar">
+    <button id="new-chat" type="button">+ New chat</button>
+    <ul id="chat-list"></ul>
+  </aside>
+
+  <div class="app">
+    <header>
+      <button id="menu-btn" type="button" aria-label="Menu">&#9776;</button>
+      <h1>Chatbot</h1>
+    </header>
+
+    <main id="messages"></main>
+
+    <footer>
+      <textarea id="input" rows="1" placeholder="Type a message and press Enter..."></textarea>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
